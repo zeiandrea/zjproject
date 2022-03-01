@@ -1,0 +1,252 @@
+.parallax-window-2 {
+    overflow-x: auto;
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+#menu2 {
+    border-bottom: 1px solid #5ab808;
+}
+
+article {
+    transition: ease all .3s;
+}
+
+article:hover {
+    box-shadow: 1px 3px 21px -13px rgba(0, 0, 0, 0.61);
+}
+
+.img-fluid {
+    margin-top: 20px;
+    border: solid 1px #275201;
+    position: relative;
+    margin-left: 50px;
+}
+.tm-history-title2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5db90d !important;
+    margin-bottom: 10px;
+}
+.noDes {
+    text-decoration: none;
+}
+
+.mainHead {
+    background-color: #275201;
+    border: #275201 !important;
+}
+
+iframe {
+    width: 100%;
+}
+
+.tyndall {
+    width: 50% !important;
+    height: auto;
+}
+
+table {
+    color: #555;
+    border: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border-color: grey;
+    width: 90%;
+}
+
+tbody {
+    text-indent: 10px;
+}
+
+.colloidTypes {
+    border-collapse: collapse;
+}
+
+thead {
+    font-weight: bold;
+}
+
+.tDiv {
+    overflow: auto;
+}
+
+.videoSection {
+    text-align: center;
+}
+
+.img-right {
+    float: right;
+    margin-left: 5px;
+}
+
+.img-left {
+    float: left;
+    margin-right: 25px;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+li {
+    color: #626364;
+}
+
+ol li {
+    line-height: 1.8;
+}
+
+.risks li {
+    line-height: 1.8;
+}
+
+.ham {
+    z-index: 99999;
+    position: relative;
+    float: right;
+    display: none;
+}
+
+@media only screen and (max-width: 507px) {
+    #myDIV {
+        width: 90vw;
+        height: 50vw !important;
+        background-color: white;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        line-height: 70px;
+        vertical-align: middle;
+        display: none;
+    }
+
+    .tm-nav-ul a {
+        color: #275201 !important;
+    }
+
+    .tm-nav {
+        margin-top: -50px;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #2cfaa8;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    .tm-nav {
+        margin-top: 20px;
+    }
+
+    .tm-nav-ul {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #2cfaa8;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+}
+
+
+
+/* Modifications */
+.tm-footer {
+    border-bottom: solid 6px #275201 !important;
+}
+
+.tm-history-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #4b8815 !important;
+    margin-bottom: 30px;
+}
+
+.tm-gallery-title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #4f970f !important;
+    margin-bottom: 15px;
+}
+
+.tm-paging-link {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.tm-gallery-price {
+    font-size: 1.25rem;
+    color: #4d8a18 !important;
+    margin-bottom: 60px;
+}
+
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: larger;
+}
+.author {
+    position: relative;
+    float: right;
+    margin-right: 60px;
+}
+.responseList {
+    position: relative;
+    margin-left: 3  0px !important;
+}
